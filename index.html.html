@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sumit Gurjar | Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+  color: #1e293b;
+  line-height: 1.9;
+  font-size: 19px;
+  background: linear-gradient(
+    135deg,
+    #f8fafc,
+    #e0f2fe,
+    #fdf4ff
+  );
+}
+
+
+header {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #e0f2fe,
+    #f0f9ff,
+    #fdf4ff
+  );
+  text-align: center;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+header h1 {
+  font-size: 4rem;
+  color: #0284c7;
+  margin-bottom: 15px;
+}
+
+header p {
+  font-size: 1.6rem;
+  color: #334155;
+}
+
+
+    .tagline {
+  margin-top: 15px;
+  font-style: italic;
+  color: #475569;
+}
+
+
+    nav {
+      margin-top: 30px;
+    }
+
+    nav a {
+      color: #f8fafc;
+      margin: 0 18px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #22d3ee;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 100px 25px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+  font-size: 2.8rem;
+  margin-bottom: 35px;
+  color: #0284c7;
+  text-align: center;
+}
+
+
+    h3 {
+      font-size: 1.7rem;
+      color: #e0e7ff;
+      margin-bottom: 10px;
+    }
+
+    .card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 22px;
+  margin-bottom: 35px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    ul {
+      padding-left: 25px;
+    }
+
+    li {
+      margin-bottom: 12px;
+      font-size: 1.2rem;
+    }
+
+    .highlights li {
+      list-style: "✨  ";
+    }
+
+    /* BUTTON */
+    .btn {
+      display: inline-block;
+      padding: 16px 40px;
+      background:
+        linear-gradient(135deg, #22d3ee, #8b5cf6);
+      color: #020617;
+      border-radius: 45px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 35px rgba(139,92,246,0.6);
+    }
+
+    /* CONTACT SECTION BACKGROUND */
+    #contact {
+      background:
+        linear-gradient(rgba(2,6,23,0.9), rgba(2,6,23,0.9)),
+        url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f");
+      background-size: cover;
+      background-position: center;
+      border-radius: 30px;
+    }
+footer {
+  text-align: center;
+  padding: 40px;
+  background: #f1f5f9;
+  color: #475569;
+}
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Sumit Gurjar</h1>
+  <p>B.Tech 3rd Year Student | Web & Software Developer</p>
+  <p class="tagline">Designing modern, clean & real-world digital experiences</p>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I am a motivated B.Tech 3rd year student with a strong passion for web and
+      software development. I enjoy building real-world applications that solve
+      practical problems using clean code and logical thinking.
+    </p>
+    <p>
+      I have a solid foundation in programming, object-oriented concepts, and
+      frontend technologies, and I continuously work on improving my skills.
+    </p>
+    <p>
+      My goal is to become a professional software developer and contribute to
+      impactful projects while growing in a collaborative environment.
+    </p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card">
+    <ul>
+      <li>HTML5, CSS3, JavaScript</li>
+      <li>Responsive Web Design</li>
+      <li>Java Programming</li>
+      <li>Object-Oriented Programming (OOP)</li>
+      <li>Basic Backend Development</li>
+      <li>Frontend Framework Basics</li>
+      <li>Problem Solving & Logical Thinking</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>What Makes Me Stand Out</h2>
+  <div class="card highlights">
+    <ul>
+      <li>Clean and readable coding style</li>
+      <li>Fast learner & self-motivated</li>
+      <li>Strong interest in real-world projects</li>
+      <li>Team player with independent working ability</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Stress Management System</h3>
+    <p>
+      A web platform that assesses stress levels and provides expert guidance,
+      videos, and exercises to help users manage stress effectively.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Qblink – Smart Queue Management System</h3>
+    <p>
+      A QR-based virtual queue system allowing users to join queues digitally,
+      view live positions, and receive notifications.
+    </p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card" style="text-align:center;">
+    <p>Email: gurjarsumit1010@gmail.com</p>
+    <p>LinkedIn: linkedin.com/in/sumit-gurjar</p>
+    <p>GitHub: github.com/SumitGurjar258</p>
+    <br>
+    <a class="btn" href="mailto:gurjarsumit1010@gmail.com">Hire Me</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Sumit Gurjar. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
